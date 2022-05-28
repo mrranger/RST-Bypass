@@ -5,7 +5,7 @@
  * @version 5.0
  * @description RST-Bypass
  * @website https://vk.com/mrrangeryt
- * @updateUrl https://raw.githubusercontent.com/DEVRANGERSTUDIO/RST-Bypass/main/RST-Bypass.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/mrranger/RST-Bypass/main/RST-Bypass.plugin.js
  */
 module.exports = (() => {
 	const config = {
@@ -15,15 +15,15 @@ module.exports = (() => {
 				{
 					name: "MrRangerYT",
 					discord_id: "265508941818101769",
-					github_username: "DEVRANGERSTUDIO",
+					github_username: "mrranger",
 				},
 			],
 			version: "5.0",
 			description:
 				"Bypass nitro, обновлений скорее всего не будет, а там хз",
-			github: "https://github.com/DEVRANGERSTUDIO/RST-Bypass",
+			github: "https://github.com/mrranger/RST-Bypass",
 			github_raw:
-				"https://raw.githubusercontent.com/DEVRANGERSTUDIO/RST-Bypass/main/RST-Bypass.plugin.js",
+				"https://raw.githubusercontent.com/mrranger/RST-Bypass/main/RST-Bypass.plugin.js",
 		},
 		main: "RST-Bypass.plugin.js",
 	};
