@@ -2,10 +2,11 @@
  * @name RST-Bypass
  * @author MrRangerYT
  * @authorId 737323631117598811
- * @version 5.1
+ * @version 5.2
  * @description RST-Bypass
  * @website https://vk.com/mrrangeryt
- * @updateUrl https://raw.githubusercontent.com/mrranger/RST-Bypass/main/RST-Bypass.plugin.js
+ * @source https://github.com/mrranger/RST-Bypass
+ * @updateUrl https://raw.githubusercontent.com/mrranger/RST-Bypass/master/RST-Bypass.plugin.js
  */
 module.exports = (() => {
 	const config = {
@@ -18,12 +19,12 @@ module.exports = (() => {
 					github_username: "mrranger",
 				},
 			],
-			version: "5.1",
+			version: "5.2",
 			description:
 				"Bypass nitro, обновлений скорее всего не будет, а там хз",
 			github: "https://github.com/mrranger/RST-Bypass",
 			github_raw:
-				"https://raw.githubusercontent.com/mrranger/RST-Bypass/main/RST-Bypass.plugin.js",
+				"https://raw.githubusercontent.com/mrranger/RST-Bypass/master/RST-Bypass.plugin.js",
 		},
 		main: "RST-Bypass.plugin.js",
 	};
@@ -158,4 +159,4 @@ module.exports = (() => {
 				return plugin(Plugin, Api);
 		  })(global.ZeresPluginLibrary.buildPlugin(config));
 })();
-/*@конец@*/
+/*@end@*/
