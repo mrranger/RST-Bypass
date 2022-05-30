@@ -83,7 +83,7 @@ module.exports = (() => {
 		: (([Plugin, Api]) => {
 				const plugin = (Plugin, Api) => {
 					const { Patcher, DiscordModules, Settings, PluginUtilities } = Api;
-					return class NitroEmoteAndScreenShareBypass extends Plugin {
+					return class RSTBypass extends Plugin {
 						settings = PluginUtilities.loadSettings(this.getName(), {
 							size: 48,
 						});
