@@ -2,7 +2,7 @@
  * @name RST-Bypass
  * @author MrRangerYT
  * @authorId 737323631117598811
- * @version 5.2
+ * @version 5.3
  * @description RST-Bypass
  * @website https://vk.com/mrrangeryt
  * @source https://github.com/mrranger/RST-Bypass
@@ -19,7 +19,7 @@ module.exports = (() => {
 					github_username: "mrranger",
 				},
 			],
-			version: "5.2",
+			version: "5.3",
 			description:
 				"Bypass nitro, обновлений скорее всего не будет, а там хз",
 			github: "https://github.com/mrranger/RST-Bypass",
